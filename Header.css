@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Uber Move Text', sans-serif;    
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header .left{
+    width: 34%;
+    height: 50px;
+    padding-left: 316px;
+    /* text-align: initial; */
+}
+.header .left .main{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+
+.header .left .main .list{
+    font-size: 20px;
+    color: white;
+}
+
+.header .left .main .list>a{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+.header .right{
+    width: 30%;
+    height: 53px;
+    padding-right: 260px;
+    padding-top: 7px;
+}
+.header .right .main{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 15px;
+}
+.header .right .main .list{
+    font-size: 16px;
+    color: white;
+}
+.header .right .main .list>a{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header .right .main .list>a.button{
+    background-color: white;
+    color: #000;
+    padding: 10px 10px;
+    border-radius: 18px;
+}
+
+a.button {}
