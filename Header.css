@@ -6,6 +6,22 @@
     scroll-behavior: smooth;
     letter-spacing: 1px;
 }
+@font-face {
+    font-family: 'UberMoveTextBold';
+    src: url("fonts/UberMoveTextBold.otf");
+}
+@font-face {
+    font-family: 'UberMoveTextLight';
+    src: url("fonts/UberMoveTextLight.otf");
+}
+@font-face {
+    font-family: 'UberMoveTextMedium';
+    src: url("fonts/UberMoveTextMedium.otf");
+}
+@font-face {
+    font-family: 'UberMoveTextRegular';
+    src: url("fonts/UberMoveTextRegular.otf");
+}
 ul{
     list-style: none;
 }
@@ -28,7 +44,7 @@ a{
 }
 .header .left .main{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-top: 20px;
 }
 
@@ -39,8 +55,8 @@ a{
 
 .header .left .main .list>a{
     color: white;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 .header .right{
     width: 30%;
@@ -48,9 +64,13 @@ a{
     padding-right: 260px;
     padding-top: 7px;
 }
+.list span{
+    font-size: 1.4rem; 
+    font-family: 'UberMoveTextRegular';
+}
 .header .right .main{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-evenly;
     padding-top: 15px;
 }
 .header .right .main .list{

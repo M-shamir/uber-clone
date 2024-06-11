@@ -32,17 +32,17 @@ img{
 
 #qrcode .qr .headings {width: 75%;margin: 0 auto;}
 
-#qrcode .qr .headings .heading {font-size: 36px;font-weight: 800;line-height: 44px;font-family: 'UberMoveTextRegular';padding-top: 35px;}
+#qrcode .qr .headings .heading {font-size: 36px; font-weight: 800; line-height: 44px; font-family: 'UberMoveTextRegular';padding-top: 35px;}
 
 #qrcode .qr .lowerqr {display: flex;justify-content: center;width: 80%;/* background-color: lightpink; */margin: 50px auto;}
 
 #qrcode .qr .lowerqr .qrcodecontainerone,#qrcode .qr .lowerqr .qrcontainertwo {
     display: flex;
     align-items: center;
-    background-color: #fff; 
-    margin-right: 20px;
-    padding: 20px;
-    /* padding-top: 57px; */
+    background-color: #fff;
+    margin-right: 30px;
+    padding: 26px;
+
     height: 230px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
