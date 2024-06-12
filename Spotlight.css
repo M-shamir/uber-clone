@@ -63,7 +63,7 @@ img{
 }
 #spotlight .spotlightone .right .lower a:hover{
     border-bottom:2px solid #000000;
-    transition: 5s;
+    transition: 500ms;
 }
 #spotlight .spotlightone .right .lower .underline {
     font-family: 'UberMoveTextRegular';
